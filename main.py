@@ -15,7 +15,7 @@
 # from controle import if_1, if_2, for_1, while_1
 
 # ====================FUNÇÔES===============================
-from funcoes import basico, args, funcional, map_reduce
+# from funcoes import basico, args, funcional, map_reduce
 # nome = input('Digite seu nome bb: ')
 # idade = int(input('Digite sua idade: '))
 # basico.saudacao_pela_manha(nome, idade)
@@ -28,4 +28,14 @@ from funcoes import basico, args, funcional, map_reduce
 # resultado = args.resultado_final(nome='Pedro',nota=6.3)
 # print(resultado)
 
-funcional.soma(1, 1)
+# funcional.soma(1, 1)
+
+# ====================DESAFIOS===============================
+from desafios import desafio_um
+#minhas Variaveis
+salario = 3450.45
+despesas = 2456.2
+
+result = desafio_um.calc_desafio(salario, despesas)
+
+print(result)

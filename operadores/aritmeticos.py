@@ -5,6 +5,7 @@ print(x - y)
 print(x * y)
 print(x / y)
 print(x % y)
+print(x ** y) # Potência
 
 
 par = 34
