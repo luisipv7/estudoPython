@@ -1,4 +1,4 @@
 # Percentual das despesas em relação ao salário
 def calc_desafio(salario, despesas):
-  total = (despesas * 100) // salario
+  total = despesas / salario * 100
   return total
