@@ -31,11 +31,18 @@
 # funcional.soma(1, 1)
 
 # ====================DESAFIOS===============================
-from desafios import desafio_um
+from desafios import desafio_um, desafio_dois
 #minhas Variaveis
-salario = 3450.45
-despesas = 2456.2
+# salario = 3450.45
+# despesas = 2456.2
 
-result = desafio_um.calc_desafio(salario, despesas)
+# result = desafio_um.calc_desafio(salario, despesas)
 
-print(result)
+# print(result)
+
+# O Trabalhos
+trabalho_terca = bool(int(input('Digite 1(true) ou 0(false)')))
+trabalho_quinta = bool(int(input('Digite 1(true) ou 0(false)')))
+
+result_dois = desafio_dois.calc_desafioDois(trabalho_terca, trabalho_quinta)
+print(result_dois, " terca={}, quinta={}".format(trabalho_terca, trabalho_quinta))
